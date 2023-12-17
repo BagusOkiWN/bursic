@@ -4,7 +4,7 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="{{ route('home') }}" class="logo">Car Dealer<em> Website</em></a>
+                    <a href="{{ route('home') }}" class="logo">Bur<em>Sic</em></a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">

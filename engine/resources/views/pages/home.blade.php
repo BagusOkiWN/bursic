@@ -18,16 +18,15 @@
 @section('content')
     <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner" id="top">
-        <video autoplay muted loop id="bg-video">
-            <source src="assets/images/video.mp4" type="video/mp4" />
-        </video>
+    <img src="assets/images/banner-plymouth.jpg" alt="Your Image Description" id="bg-image" />
+
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Lorem ipsum dolor sit amet</h6>
-                <h2>Best <em>car dealer</em> in town!</h2>
+                <h6>Bursa Classic</h6>
+                <h2>Best<em> classic car dealer</em> in town!</h2>
                 <div class="main-button">
-                    <a href="contact.html">Contact Us</a>
+                    <a href="{{ route('contact') }}">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -40,7 +39,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
-                        <h2>Featured <em>Cars</em></h2>
+                        <h2>Classic <em>Cars</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
                         <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
                     </div>
