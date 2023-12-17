@@ -41,7 +41,7 @@
                     <div class="section-heading">
                         <h2>Classic <em>Cars</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>Temukan mobil classic pilihan anda!</p>
                     </div>
                 </div>
             </div>
