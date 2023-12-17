@@ -17,7 +17,7 @@
 
 @section('content')
     <!-- ***** Call to Action Start ***** -->
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/coba.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -25,7 +25,7 @@
                         <br>
                         <br>
                         <h2>Our <em>Cars</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>Temukan mobil impianmu disini!</p>
                     </div>
                 </div>
             </div>
