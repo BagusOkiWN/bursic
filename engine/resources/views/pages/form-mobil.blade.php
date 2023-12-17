@@ -35,7 +35,7 @@
             </div>
             <!-- /.card-header -->
             <!-- form start -->
-            <form id="quickForm" novalidate="novalidate" method="POST" action="{{ route('mobil.store') }}">
+            <form id="quickForm" novalidate="novalidate" method="POST" action="{{ route('mobil.store') }}" enctype="multipart/form-data">
               @csrf
               <div class="card-body">
                 <div class="form-group">
