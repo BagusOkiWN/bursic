@@ -16,7 +16,7 @@
 @endsection
 
 @section('content')
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/faq.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -24,7 +24,7 @@
                         <br>
                         <br>
                         <h2>Read our <em>FAQ</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -40,23 +40,23 @@
           
             <section class='tabs-content'>
               <article>
-                <h4><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet?</h4>
-                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
+                <h4><i class="fa fa-question-circle"></i> Apa itu BurSic?</h4>
+                <p>BurSic adalah platform online jual beli mobil klasik terbesar dan terpercaya di Indonesia. Kami menghubungkan penjual dan pembeli mobil klasik dengan aman dan mudah.</p>
 
                 <br>
                     
-                <h4><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet, consectetur?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
+                <h4><i class="fa fa-question-circle"></i> Bagaimana cara menjual mobil klasik saya di BurSic?</h4>
+                <p>Mudah! Cukup buat akun, pasang iklan mobil Anda dengan foto dan deskripsi menarik, dan tentukan harga.</p>
 
                 <br>
                 
-                <h4><i class="fa fa-question-circle"></i> Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum?</h4>
-                <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                <h4><i class="fa fa-question-circle"></i> Berapa biaya untuk memasang iklan di BurSic?</h4>
+                <p>Kami menawarkan paket iklan dengan harga terjangkau dan fleksibel, disesuaikan dengan kebutuhan Anda.</p>
 
                 <br>
                 
-                <h4><i class="fa fa-question-circle"></i> Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
+                <h4><i class="fa fa-question-circle"></i> Bagaimana cara menghubungi BurSic?</h4>
+                <p>Anda dapat menghubungi kami melalui email, telepon yang berada di website kami.</p>
               </article>
             </section>
         </div>

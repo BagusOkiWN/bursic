@@ -16,7 +16,7 @@
 @endsection
 
 @section('content')
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/impala.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -24,7 +24,7 @@
                         <br>
                         <br>
                         <h2>Read our <em>Testimonials</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="First One">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Ammar</h4>
+                                <p><em>"Saya benar-benar terkesan dengan pengalaman saya menggunakan BurSic. Mereka tidak hanya menyediakan platform yang aman untuk jual beli mobil klasik, tetapi juga membantu saya menemukan 'si permata langka' yang saya cari. Prosesnya sangat lancar, dan tim dukungan pelanggan mereka responsif dan membantu. Saya sangat merekomendasikan BurSic kepada semua penggemar mobil klasik!"</em></p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -54,8 +54,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="second one">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Alfa</h4>
+                                <p><em>"BurSic benar-benar menghadirkan revolusi dalam cara saya menjelajahi dan mengumpulkan mobil klasik. Dari desain situs yang estetis hingga alat pencarian yang canggih, saya merasa platform ini memberikan nilai tambah yang besar bagi para penggemar otomotif seperti saya."</em></p>
                             </div>
                         </li>
                     </ul>
@@ -67,8 +67,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="fourth muscle">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Adam</h4>
+                                <p><em>"BurSic adalah tempat yang luar biasa untuk pecinta mobil klasik seperti saya. Antarmuka pengguna yang ramah pengguna membuat penelusuran dan penjelajahan menjadi pengalaman yang menyenangkan. Saya benar-benar terkesan dengan desain intuitifnya, yang membuat proses mencari dan memilih mobil klasik menjadi begitu mudah."</em></p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -76,8 +76,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="training fifth">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Okik</h4>
+                                <p><em>"Sebagai kolektor mobil klasik, saya sangat menghargai bahwa BurSic tidak hanya fokus pada penampilan visual, tetapi juga menyediakan detail-detail teknis yang penting. Ini membantu saya memilih mobil yang sesuai dengan keinginan koleksi saya, dan saya merasa pasti bahwa setiap mobil yang saya beli dari BurSic memiliki riwayat yang terdokumentasi dengan baik."</em></p>
                             </div>
                         </li>
                     </ul>

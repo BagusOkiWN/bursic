@@ -17,7 +17,7 @@
 
 @section('content')
    
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/abotus.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -25,7 +25,7 @@
                         <br>
                         <br>
                         <h2>Learn more <em>About Us</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -51,31 +51,31 @@
                   <article id='tabs-1'>
                     <img src="assets/images/about-image-1-940x460.jpg" alt="">
                     <h4>Our Goals</h4>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
-
-                    <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
-                   
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
+                    <p>BurSic, Bursa Classic, adalah platform yang didedikasikan untuk penggemar mobil klasik yang ingin menjelajahi dan merayakan keindahan kendaraan bersejarah. Dengan fokus utama pada pengalaman pengguna yang unik dan memuaskan, BurSic menetapkan sejumlah tujuan yang mendukung pertumbuhan dan keberlanjutan platform ini. Berikut merupakan goals dari BurSic</p>
+                    <li>Menjadi platform jual beli mobil klasik terpercaya dan terlengkap di Indonesia</li>
+                    <p>BurSic ingin menjadi platform jual beli mobil klasik yang terpercaya dan terlengkap di Indonesia. Hal ini dapat dicapai dengan menyediakan berbagai fitur dan layanan yang memudahkan dan menguntungkan bagi penjual dan pembeli.</p>
+                    <li>Meningkatkan minat masyarakat terhadap mobil klasikMeningkatkan minat masyarakat terhadap mobil klasik</li>
+                    <p>BurSic juga ingin meningkatkan minat masyarakat terhadap mobil klasik. Hal ini dapat dicapai dengan memberikan informasi dan edukasi mengenai mobil klasik yang menarik dan informatif.</p>
+                    <li>Menjadi wadah bagi para pecinta mobil klasik</li>
+                    <p>BurSic ingin menjadi wadah bagi para pecinta mobil klasik untuk saling bertemu, berbagi informasi, dan bertukar pengalaman. Hal ini dapat dicapai dengan mengadakan berbagai acara dan kegiatan yang menarik bagi para pecinta mobil klasik.</p>
                   </article>
                   <article id='tabs-2'>
                     <img src="assets/images/about-image-2-940x460.jpg" alt="">
                     <h4>Our Work</h4>
-                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut accusantium cum! Ad quisquam, aut praesentium magni pariatur ipsa! Soluta deserunt accusantium repellendus ratione quam hic facere, cupiditate iste obcaecati a, officiis ipsum aspernatur in?</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla a necessitatibus eos vitae quibusdam quo sunt officiis rerum voluptatibus non natus eius placeat officia vel quaerat, reprehenderit obcaecati, eaque? Repudiandae ad facere culpa accusamus aliquam ab assumenda reiciendis corrupti cum nemo, cumque molestiae corporis deserunt!</p>
+                    <li>Fitur posting iklan</li>
+                    <p>Penjual dapat dengan mudah posting iklan mobil klasik mereka di BurSic. Iklan akan ditampilkan di halaman utama BurSic dan akan dipromosikan melalui berbagai saluran pemasaran.</p>
+                    <li>Fitur pencarian</li>
+                    <p>Pembeli dapat dengan mudah mencari mobil klasik yang mereka inginkan dengan menggunakan fitur pencarian yang tersedia di BurSic. Fitur pencarian memungkinkan pembeli untuk mencari mobil berdasarkan merek, model, tahun, harga, dan lokasi.</p>
+                    <li>Berkolaborasi dengan komunitas mobil klasik</li>
+                    <p>BurSic berkolaborasi dengan komunitas mobil klasik untuk memberikan informasi dan layanan yang lebih lengkap bagi para pecinta mobil klasik.</p>
                   </article>
                   <article id='tabs-3'>
                     <img src="assets/images/about-image-3-940x460.jpg" alt="">
                     <h4>Our Passion</h4>
-                    <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aut beatae commodi repudiandae distinctio, magnam blanditiis reiciendis vitae velit voluptatum natus, fugit quis eos dolores!</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic adipisci reiciendis quaerat qui earum aut, atque esse quisquam quis exercitationem sapiente, dolorum consequatur consequuntur voluptatibus ipsam, fuga magnam beatae optio nam. Recusandae ut aliquid, eligendi.</p>
+                    <li>Membantu para pecinta mobil klasik</li>
+                    <p>Kami ingin membantu para pecinta mobil klasik untuk menemukan mobil klasik impian mereka. Kami percaya bahwa mobil klasik dapat menjadi teman yang setia, serta dapat memberikan pengalaman berkendara yang unik dan tak terlupakan.</p>
+                    <li>Meningkatkan minat masyarakat terhadap mobil klasik</li>
+                    <p>Kami ingin meningkatkan minat masyarakat terhadap mobil klasik. Kami percaya bahwa mobil klasik memiliki nilai sejarah, budaya, dan estetika yang tinggi. Kami ingin mengajak masyarakat untuk lebih mengenal dan menghargai mobil klasik.</p>
                   </article>
                 </section>
               </div>
@@ -85,15 +85,15 @@
     <!-- ***** Our Classes End ***** -->
 
     <!-- ***** Call to Action Start ***** -->
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/mstg2.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <h2>Send us a <em>message</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
+                        <p>Your feedback is important to us. If you have any questions or suggestions, please feel free to send us a message, and we'll be in touch soon.</p>
                         <div class="main-button">
-                            <a href="contact.html">Contact us</a>
+                            <a href="{{route('contact')}}">Contact us</a>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
 @endsection
 
 @section('content')
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/baracuda.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -24,7 +24,7 @@
                         <br>
                         <br>
                         <h2>Meet our <em>Team</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>Bersama lebih kuat, sendiri lebih cepat (kalo ngejar angkot :P)</p>
                     </div>
                 </div>
             </div>
@@ -42,14 +42,14 @@
                             <img src="assets/images/team-image-1-646x680.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>CEO</span>
-                            <h4>John Doe</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                            <span>Project Manager</span>
+                            <h4>Alfarizky Oka Irianto</h4>
+                            <p></p>
                             <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,14 +60,14 @@
                             <img src="assets/images/team-image-2-646x680.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>Customer Support</span>
-                            <h4>Jane Smith</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                            <span>UI/UX Designer</span>
+                            <h4>Adam Pinggala A.P</h4>
+                            <p></p>
                             <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,14 +78,14 @@
                             <img src="assets/images/team-image-3-646x680.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>Customer Support</span>
-                            <h4>Kate Johnson</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                            <span>Frontend Developer</span>
+                            <h4>Bagus Oki W.N</h4>
+                            <p></p>
                             <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,14 +97,14 @@
                             <img src="assets/images/team-image-4-646x680.jpg" alt="">
                         </div>
                         <div class="down-content">
-                            <span>Customer Support</span>
-                            <h4>Mark Green</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                            <span>Backend Developer</span>
+                            <h4>Ammar Al Amin</h4>
+                            <p></p>
                             <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
                             </ul>
                         </div>
                     </div>

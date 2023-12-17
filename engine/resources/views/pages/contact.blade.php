@@ -16,7 +16,7 @@
 @endsection
 
 @section('content')
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/kontakus.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -24,7 +24,7 @@
                         <br>
                         <br>
                         <h2>Feel free to <em>Contact Us</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>Your thoughts matter! Send us a message if you have any inquiries, suggestions, or just want to chat about classic cars.</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                         <i class="fa fa-phone"></i>
                     </div>
 
-                    <h5><a href="#">+1 333 4040 5566</a></h5>
+                    <h5><a href="#">+62 812 2620 3598</a></h5>
 
                     <br>
                 </div>
@@ -58,7 +58,7 @@
                         <i class="fa fa-envelope"></i>
                     </div>
 
-                    <h5><a href="#">contact@company.com</a></h5>
+                    <h5><a href="#">bursic@gmail.com</a></h5>
 
                     <br>
                 </div>
@@ -68,7 +68,7 @@
                         <i class="fa fa-map-marker"></i>
                     </div>
 
-                    <h5>212 Barrington Court New York</h5>
+                    <h5>Mesen, Surakarta</h5>
 
                     <br>
                 </div>
@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div id="map">
-                      <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1103095519247!2d110.83304007415164!3d-7.562950674688099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a17bfca3568f1%3A0x52872ee12cf2fa57!2sKampus%20UNS%20Mesen!5e0!3m2!1sid!2sid!4v1702828485990!5m2!1sid!2sid" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12">

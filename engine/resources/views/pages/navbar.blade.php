@@ -15,11 +15,11 @@
 
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="{{ route('about') }}">About Us</a>
-                                <a class="dropdown-item" href="{{ route('blog') }}">Blog</a>
+                                <!-- <a class="dropdown-item" href="{{ route('blog') }}">Blog</a> -->
                                 <a class="dropdown-item" href="{{ route('team') }}">Team</a>
                                 <a class="dropdown-item" href="{{ route('testimonials') }}">Testimonials</a>
                                 <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
-                                <a class="dropdown-item" href="{{ route('terms') }}">Terms</a>
+                                <!-- <a class="dropdown-item" href="{{ route('terms') }}">Terms</a> -->
                             </div>
                         </li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
