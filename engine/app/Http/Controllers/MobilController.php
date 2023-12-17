@@ -7,10 +7,6 @@ use App\Models\Mobil;
 
 class MobilController extends Controller
 {
-    public function create()
-    {
-        return view('mobil.create');
-    }
 
     public function store(Request $request)
     {
