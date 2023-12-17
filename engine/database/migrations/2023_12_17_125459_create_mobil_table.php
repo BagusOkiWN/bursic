@@ -24,6 +24,7 @@ class CreateMobilTable extends Migration
             $table->string('lokasi');
             $table->string('penjual');
             $table->string('telepon');
+            $table->string('gambar'); 
             $table->timestamps();
         });
     }
