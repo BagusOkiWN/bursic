@@ -24,7 +24,7 @@ class CreateMobilTable extends Migration
             $table->string('lokasi');
             $table->string('penjual');
             $table->string('telepon');
-            $table->string('gambar'); 
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }
@@ -37,5 +37,8 @@ class CreateMobilTable extends Migration
     public function down()
     {
         Schema::dropIfExists('mobil');
+        Schema::table('mobil', function (Blueprint $table) {
+            $table->dropColumn('gambar');
+        });
     }
 }

@@ -39,4 +39,7 @@ class HomeController extends Controller
     public function testimonials(){
         return view('pages.testimonials');
     }
+    public function auth(){
+        return view('auth.auth');
+    }
 }
