@@ -26,9 +26,7 @@ Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //Route Mobil
-Route::get('/mobil', [MobilController::class, 'index'])->name('mobil.index');
-Route::get('/mobilform', [MobilController::class, 'create'])->name('mobil.create');
-Route::post('/mobil', [MobilController::class, 'store'])->name('mobil.store');
+Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');
 Route::get('/mobil/{id}/edit', [MobilController::class, 'edit'])->name('mobil.edit');
 Route::put('/mobil/{id}', [MobilController::class, 'update'])->name('mobil.update');
 Route::delete('/mobil/{id}', [MobilController::class, 'destroy'])->name('mobil.destroy');
