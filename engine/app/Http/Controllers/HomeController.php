@@ -42,4 +42,7 @@ class HomeController extends Controller
     public function auth(){
         return view('auth.auth');
     }
+    public function formmobil(){
+        return view('pages.form-mobil');
+    }
 }

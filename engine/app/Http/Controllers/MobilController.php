@@ -3,62 +3,102 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Mobil;
 
 class MobilController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
-        //
+        return view('mobil.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'nama' => 'required',
+            'tahun' => 'required|integer',
+            'bbm' => 'required',
+            'km' => 'required|integer',
+            'transmisi' => 'required',
+            'cc' => 'required|integer',
+            'lokasi' => 'required',
+            'penjual' => 'required',
+            'telepon' => 'required',
+            'gambar' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+
+        $image = $request->file('gambar');
+        $imageName = time() . '.' . $image->getClientOriginalExtension();
+        $image->move('uploads/', $imageName);
+
+        $mobil = new Mobil;
+        $mobil->nama = $request->nama;
+        $mobil->tahun = $request->tahun;
+        $mobil->bbm = $request->bbm;
+        $mobil->km = $request->km;
+        $mobil->transmisi = $request->transmisi;
+        $mobil->cc = $request->cc;
+        $mobil->lokasi = $request->lokasi;
+        $mobil->penjual = $request->penjual;
+        $mobil->telepon = $request->telepon;
+        $mobil->gambar = $imageName;
+
+        $mobil->save();
+
+        return redirect('/form-mobil')->with('success', 'Data Mobil berhasil ditambahkan.');
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
+    public function update(Request $request, $id)
     {
-        //
+        $validated = $request->validate([
+            'nama' => 'required',
+            'tahun' => 'required|integer',
+            'bbm' => 'required',
+            'km' => 'required|integer',
+            'transmisi' => 'required',
+            'cc' => 'required|integer',
+            'lokasi' => 'required',
+            'penjual' => 'required',
+            'telepon' => 'required',
+            'gambar' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+
+        $mobil = Mobil::findOrFail($id);
+
+        if ($request->hasFile('gambar')) {
+            // Check if the old file exists before deleting it
+            if (file_exists(public_path('uploads/' . $mobil->gambar))) {
+                unlink(public_path('uploads/' . $mobil->gambar));
+            }
+
+            $image = $request->file('gambar');
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $image->move('uploads/', $imageName);
+
+            $mobil->gambar = $imageName;
+        }
+
+        // Update other fields
+        $mobil->nama = $request->nama;
+        $mobil->tahun = $request->tahun;
+        $mobil->bbm = $request->bbm;
+        $mobil->km = $request->km;
+        $mobil->transmisi = $request->transmisi;
+        $mobil->cc = $request->cc;
+        $mobil->lokasi = $request->lokasi;
+        $mobil->penjual = $request->penjual;
+        $mobil->telepon = $request->telepon;
+
+        $mobil->save();
+
+        return redirect('/form-mobil')->with('success', 'Data Mobil berhasil diperbarui.');
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
+    public function destroy($id)
     {
-        //
-    }
+        $mobil = Mobil::findOrFail($id);
+        $mobil->delete();
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
+        return redirect('/form-mobil')->with('success', 'Data Mobil berhasil dihapus.');
     }
 }
