@@ -4,6 +4,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MobilController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/home', [HomeController::class, 'home']);
@@ -18,13 +19,14 @@ Route::get('/team', [HomeController::class, 'team'])->name('team');
 Route::get('/terms', [HomeController::class, 'terms'])->name('terms');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/auth', [HomeController::class, 'auth'])->name('auth');
-
+Route::get('/verify', [HomeController::class, 'verification'])->name('verify');
 Route::get('/form-mobil', [HomeController::class, 'formmobil'])->name('form-mobil');
 
 //Auth Post
 Route::post('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+
 
 //Route Mobil
 Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');

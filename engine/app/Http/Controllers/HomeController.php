@@ -45,4 +45,7 @@ class HomeController extends Controller
     public function formmobil(){
         return view('pages.form-mobil');
     }
+    public function verification(){
+        return view('auth.verification');
+    }
 }
