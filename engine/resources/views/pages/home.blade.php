@@ -56,7 +56,7 @@
                                 <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4>Mobil 1</h4>
 
                             <p>
                                 <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
@@ -80,7 +80,7 @@
                                 <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4>Mobil 2</h4>
 
                             <p>
                                 <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
@@ -104,7 +104,7 @@
                                 <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4>Mobil 3</h4>
 
                             <p>
                                 <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
@@ -123,7 +123,7 @@
             <br>
 
             <div class="main-button text-center">
-                <a href="{{ route('cars') }}">View Cars</a>
+                <a href="cars.html">View Cars</a>
             </div>
         </div>
     </section>
@@ -203,7 +203,7 @@
             <br>
 
             <div class="main-button text-center">
-                <a href="{{ route('testimonials') }}">Read More</a>
+                <a href="testimonials.html">Read More</a>
             </div>
         </div>
     </section>
@@ -217,7 +217,7 @@
                         <h2>Send us a <em>message</em></h2>
                         <p>Your thoughts matter! Send us a message if you have any inquiries, suggestions, or just want to chat about classic cars.</p>
                         <div class="main-button">
-                            <a href="{{ route('contact') }}">Contact us</a>
+                            <a href="contact.html">Contact us</a>
                         </div>
                     </div>
                 </div>

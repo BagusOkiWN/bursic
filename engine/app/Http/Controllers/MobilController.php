@@ -20,6 +20,7 @@ class MobilController extends Controller
             'lokasi' => 'required',
             'penjual' => 'required',
             'telepon' => 'required',
+            'harga' => 'required',
             'gambar' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
@@ -37,6 +38,7 @@ class MobilController extends Controller
         $mobil->lokasi = $request->lokasi;
         $mobil->penjual = $request->penjual;
         $mobil->telepon = $request->telepon;
+        $mobil->harga = $request->harga;
         $mobil->gambar = $imageName;
 
         $mobil->save();
@@ -56,6 +58,7 @@ class MobilController extends Controller
             'lokasi' => 'required',
             'penjual' => 'required',
             'telepon' => 'required',
+            'harga' => 'required',
             'gambar' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
@@ -84,7 +87,7 @@ class MobilController extends Controller
         $mobil->lokasi = $request->lokasi;
         $mobil->penjual = $request->penjual;
         $mobil->telepon = $request->telepon;
-
+        $mobil->harga = $request->harga;
         $mobil->save();
 
         return redirect('/form-mobil')->with('success', 'Data Mobil berhasil diperbarui.');

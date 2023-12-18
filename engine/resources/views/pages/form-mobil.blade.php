@@ -75,6 +75,10 @@
                   <input type="text" class="form-control" id="telepon" name="telepon" placeholder="Masukkan Nomor Telepon">
                 </div>
                 <div class="form-group">
+                  <label for="exampleInputEmail1">Harga</label>
+                  <input type="text" class="form-control" id="harga" name="harga" placeholder="Masukkan Harga">
+                </div>
+                <div class="form-group">
                   <label for="gambar">Upload Foto Mobil</label>
                   <input type="file" class="form-control" id="gambar" name="gambar">
                 </div>
