@@ -1,4 +1,4 @@
-@extends('pages.master')
+@extends('admin.masteradmin')
 
 @section('title', 'Form Mobil')
 
