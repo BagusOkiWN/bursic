@@ -74,7 +74,7 @@
                 <ul>
                   <li><a href='#tabs-1'><i class="fa fa-cog"></i> Vehicle Specs</a></li>
                   <li><a href='#tabs-2'><i class="fa fa-info-circle"></i> Vehicle Description</a></li>
-                  <li><a href='#tabs-3'><i class="fa fa-plus-circle"></i> Vehicle Extras</a></li>
+                  <!-- <li><a href='#tabs-3'><i class="fa fa-plus-circle"></i> Vehicle Extras</a></li> -->
                   <li><a href='#tabs-4'><i class="fa fa-phone"></i> Contact Details</a></li>
                 </ul>
               </div>
@@ -163,7 +163,7 @@
                     
                     <p>- Colour coded bumpers <br> - Tinted glass <br> - Immobiliser <br> - Central locking - remote <br> - Passenger airbag <br> - Electric windows <br> - Rear head rests <br> - Radio <br> - CD player <br> - Ideal first car <br> - Warranty <br> - High level brake light <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat                     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
                    </article>
-                  <article id='tabs-3'>
+                  <!-- <article id='tabs-3'>
                     <h4>Vehicle Extras</h4>
 
                     <div class="row">   
@@ -186,7 +186,7 @@
                             <p>Xenon headlights</p>
                         </div>
                     </div>
-                  </article>
+                  </article> -->
                   <article id='tabs-4'>
                     <h4>Contact Details</h4>
 

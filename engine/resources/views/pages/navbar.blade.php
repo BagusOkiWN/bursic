@@ -23,6 +23,20 @@
                             </div>
                         </li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <div class="row">
+                            @if(empty(auth()->user()->name))
+        <div class="col-lg-12 text-center">
+            <a href="{{ route('auth') }}" class="btn btn-primary">Login</a>
+            <a href="{{ route('auth') }}" class="btn btn-success">Register</a>
+        </div>
+        @endif
+                            @if(!empty(auth()->user()->name))
+        <div class="col-lg-12 text-center">
+        <a href="{{ route('auth') }}" class="btn btn-success">{{auth()->user()->name}}</a>
+            <a href="{{ route('logout') }}" class="btn btn-primary">Logout</a>
+        </div>
+        @endif
+    </div>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>

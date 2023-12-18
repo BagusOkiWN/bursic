@@ -23,7 +23,7 @@ Route::get('/form-mobil', [HomeController::class, 'formmobil'])->name('form-mobi
 //Auth Post
 Route::post('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
-Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //Route Mobil
 Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');
