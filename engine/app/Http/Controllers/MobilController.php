@@ -11,16 +11,22 @@ class MobilController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
+            'type' => 'required',
             'nama' => 'required',
+            'warna' => 'required',
             'tahun' => 'required|integer',
+            'kursi' => 'required|integer',
+            'pintu' => 'required|integer',
             'bbm' => 'required',
             'km' => 'required|integer',
             'transmisi' => 'required',
             'cc' => 'required|integer',
+            'power' => 'required',
             'lokasi' => 'required',
             'penjual' => 'required',
             'telepon' => 'required',
             'harga' => 'required',
+            'description' => 'required',
             'gambar' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
@@ -29,16 +35,22 @@ class MobilController extends Controller
         $image->move('uploads/', $imageName);
 
         $mobil = new Mobil;
+        $mobil->type = $request->type;
         $mobil->nama = $request->nama;
+        $mobil->warna = $request->warna;
         $mobil->tahun = $request->tahun;
+        $mobil->kursi = $request->kursi;
+        $mobil->pintu = $request->pintu;
         $mobil->bbm = $request->bbm;
         $mobil->km = $request->km;
         $mobil->transmisi = $request->transmisi;
         $mobil->cc = $request->cc;
+        $mobil->power = $request->power;
         $mobil->lokasi = $request->lokasi;
         $mobil->penjual = $request->penjual;
         $mobil->telepon = $request->telepon;
         $mobil->harga = $request->harga;
+        $mobil->description = $request->description;
         $mobil->gambar = $imageName;
 
         $mobil->save();
@@ -49,16 +61,22 @@ class MobilController extends Controller
     public function update(Request $request, $id)
     {
         $validated = $request->validate([
+            'type' => 'required',
             'nama' => 'required',
+            'warna' => 'required',
             'tahun' => 'required|integer',
+            'kursi' => 'required|integer',
+            'pintu' => 'required|integer',
             'bbm' => 'required',
             'km' => 'required|integer',
             'transmisi' => 'required',
             'cc' => 'required|integer',
+            'power' => 'required',
             'lokasi' => 'required',
             'penjual' => 'required',
             'telepon' => 'required',
             'harga' => 'required',
+            'description' => 'required',
             'gambar' => 'required|file|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
@@ -78,16 +96,23 @@ class MobilController extends Controller
         }
 
         // Update other fields
+        $mobil->type = $request->type;
         $mobil->nama = $request->nama;
+        $mobil->warna = $request->warna;
         $mobil->tahun = $request->tahun;
+        $mobil->kursi = $request->kursi;
+        $mobil->pintu = $request->pintu;
         $mobil->bbm = $request->bbm;
         $mobil->km = $request->km;
         $mobil->transmisi = $request->transmisi;
         $mobil->cc = $request->cc;
+        $mobil->power = $request->power;
         $mobil->lokasi = $request->lokasi;
         $mobil->penjual = $request->penjual;
         $mobil->telepon = $request->telepon;
         $mobil->harga = $request->harga;
+        $mobil->description = $request->description;
+        $mobil->gambar = $imageName;
         $mobil->save();
 
         return redirect('/form-mobil')->with('success', 'Data Mobil berhasil diperbarui.');

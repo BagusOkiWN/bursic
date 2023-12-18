@@ -9,7 +9,23 @@ class Mobil extends Model
     protected $table = 'mobil';
 
     protected $fillable = [
-        'nama', 'tahun', 'bbm', 'km', 'transmisi', 'cc', 'lokasi', 'penjual', 'telepon', 'harga', 'gambar',
+        'type',
+        'nama', 
+        'warna',
+        'tahun',
+        'kursi',
+        'pintu', 
+        'bbm',
+        'km', 
+        'transmisi', 
+        'cc', 
+        'power',
+        'lokasi', 
+        'penjual', 
+        'telepon', 
+        'harga', 
+        'description',
+        'gambar',
     ];
 
 }

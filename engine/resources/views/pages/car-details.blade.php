@@ -91,21 +91,9 @@
                        </div>
 
                        <div class="col-sm-6">
-                            <label>Make</label>
-                       
-                            <p>Lorem ipsum dolor sit</p>
-                       </div>
-
-                       <div class="col-sm-6">
                             <label> Model</label>
                        
                             <p>Lorem ipsum dolor sit</p>
-                       </div>
-
-                       <div class="col-sm-6">
-                            <label>First registration</label>
-                       
-                            <p>05/2010</p>
                        </div>
 
                        <div class="col-sm-6">
@@ -163,30 +151,7 @@
                     
                     <p>- Colour coded bumpers <br> - Tinted glass <br> - Immobiliser <br> - Central locking - remote <br> - Passenger airbag <br> - Electric windows <br> - Rear head rests <br> - Radio <br> - CD player <br> - Ideal first car <br> - Warranty <br> - High level brake light <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat                     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
                    </article>
-                  <!-- <article id='tabs-3'>
-                    <h4>Vehicle Extras</h4>
 
-                    <div class="row">   
-                        <div class="col-sm-6">
-                            <p>ABS</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Leather seats</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Power Assisted Steering</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Electric heated seats</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>New HU and AU</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Xenon headlights</p>
-                        </div>
-                    </div>
-                  </article> -->
                   <article id='tabs-4'>
                     <h4>Contact Details</h4>
 
@@ -200,14 +165,6 @@
                             <label>Phone</label>
 
                             <p>123-456-789 </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <label>Mobile phone</label>
-                            <p>456789123 </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <label>Email</label>
-                            <p><a href="#">john@carsales.com</a></p>
                         </div>
                     </div>
                   </article>

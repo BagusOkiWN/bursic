@@ -27,7 +27,7 @@
     <div class="container-fluid">
       <div class="row">
         <!-- left column -->
-        <div class="col-md-12">
+        <div class="col-md-9">
           <!-- general form elements -->
           <div class="card card-primary">
             <div class="card-header">
@@ -39,12 +39,28 @@
               @csrf
               <div class="card-body">
                 <div class="form-group">
+                  <label for="exampleInputEmail1">Tipe</label>
+                  <input type="text" class="form-control" id="type" name="type" placeholder="Masukkan Tipe Mobil">
+                </div>
+                <div class="form-group">
                   <label for="exampleInputEmail1">Mobil</label>
                   <input type="text" class="form-control" id="mobil" name="nama" placeholder="Masukkan Nama Mobil">
                 </div>
                 <div class="form-group">
+                  <label for="exampleInputEmail1">Warna</label>
+                  <input type="text" class="form-control" id="warna" name="warna" placeholder="Masukkan Warna Mobil">
+                </div>
+                <div class="form-group">
                   <label for="exampleInputEmail1">Tahun</label>
                   <input type="text" class="form-control" id="tahun" name="tahun" placeholder="Masukkan Tahun Mobil">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Jumlah Kursi</label>
+                  <input type="text" class="form-control" id="kursi" name="kursi" placeholder="Masukkan Jumlah Kursi Mobil">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Jumlah Pintu</label>
+                  <input type="text" class="form-control" id="pintu" name="pintu" placeholder="Masukkan Jumlah Pintu">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Jenis BBM</label>
@@ -63,6 +79,10 @@
                   <input type="text" class="form-control" id="cc" name="cc" placeholder="Masukkan Kapasitas Mesin">
                 </div>
                 <div class="form-group">
+                  <label for="exampleInputEmail1">Power</label>
+                  <input type="text" class="form-control" id="power" name="power" placeholder="Masukkan Power Mesin">
+                </div>
+                <div class="form-group">
                   <label for="exampleInputEmail1">Lokasi</label>
                   <input type="text" class="form-control" id="lokasi" name="lokasi" placeholder="Masukkan Lokasi">
                 </div>
@@ -77,6 +97,10 @@
                 <div class="form-group">
                   <label for="exampleInputEmail1">Harga</label>
                   <input type="text" class="form-control" id="harga" name="harga" placeholder="Masukkan Harga">
+                </div>
+                <div class="form-group">
+                    <label for="desc">Deskripsi</label>
+                    <textarea class="form-control" id="description" name="description" placeholder="Masukkan Deskripsi Mobil"></textarea>
                 </div>
                 <div class="form-group">
                   <label for="gambar">Upload Foto Mobil</label>
