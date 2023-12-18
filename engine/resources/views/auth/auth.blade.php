@@ -10,17 +10,16 @@
 </head>
 
 <body>
-	<h2>Weekly Coding Challenge #1: Sign in/up Form</h2>
 	<div class="container" id="container">
 		<div class="form-container sign-up-container">
 			<form action="{{ route('register') }}" method="post">
 				@csrf
 				<h1>Create Account</h1>
-				<div class="social-container">
+				<!-- <div class="social-container">
 					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
 					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
 					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-				</div>
+				</div> -->
 				<span>or use your email for registration</span>
 				<input type="text" name="name" placeholder="Name" />
 				<input type="email" name="email" placeholder="Email" />
@@ -32,11 +31,11 @@
 			<form action="{{ route('login') }}" method="post">
 				@csrf
 				<h1>Sign in</h1>
-				<div class="social-container">
+				<!-- <div class="social-container">
 					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
 					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
 					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-				</div>
+				</div> -->
 				<span>or use your account</span>
 				<input type="email" name="email" placeholder="Email" />
 				<input type="password" name="password" placeholder="Password" />
