@@ -18,6 +18,7 @@ Route::get('/team', [HomeController::class, 'team'])->name('team');
 Route::get('/terms', [HomeController::class, 'terms'])->name('terms');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/auth', [HomeController::class, 'auth'])->name('auth');
+
 Route::get('/form-mobil', [HomeController::class, 'formmobil'])->name('form-mobil');
 
 //Auth Post
