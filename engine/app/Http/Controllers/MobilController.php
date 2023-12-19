@@ -7,6 +7,12 @@ use App\Models\Mobil;
 
 class MobilController extends Controller
 {
+    public function home()
+    {
+        // Fetch the latest 3 cars from the database
+        $mobilList = Mobil::latest()->take(3)->get();
+        return view('pages.home', compact('mobilList'));
+    }
 
     public function store(Request $request)
     {

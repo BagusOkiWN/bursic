@@ -3,7 +3,7 @@
 @section('title', 'Form Mobil')
 
 @section('content')
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/mstg.jpg)>
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/mstg.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">

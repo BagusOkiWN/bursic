@@ -5,9 +5,10 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\MobilController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-Route::get('/', [HomeController::class, 'home'])->name('home');
-Route::get('/home', [HomeController::class, 'home']);
+Route::get('/', [MobilController::class, 'home'])->name('home');
+Route::get('/home', [MobilController::class, 'home']);
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/blog-details', [HomeController::class, 'blogdetails'])->name('blogdetails');
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
@@ -21,12 +22,12 @@ Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('test
 Route::get('/auth', [HomeController::class, 'auth'])->name('auth');
 Route::get('/verify', [HomeController::class, 'verification'])->name('verify');
 Route::get('/form-mobil', [HomeController::class, 'formmobil'])->name('form-mobil');
+Route::get('/car-details', [HomeController::class, 'cardetails'])->name('cardetails');
 
 //Auth Post
 Route::post('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
-
 
 //Route Mobil
 Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');

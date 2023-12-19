@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use App\Http\Controllers\HomeController;
+use Illuminate\Auth\Events\Registered;
 
 class AuthController extends Controller
 {   
@@ -24,7 +25,9 @@ class AuthController extends Controller
         $user->email = $request->email;
         $user->password = Hash::make($request->password);
         $user->save();
-        return redirect()->route('home');
+        event(new Registered($user));
+
+        return redirect()->route('auth');
     }
     
     public function login(Request $request)

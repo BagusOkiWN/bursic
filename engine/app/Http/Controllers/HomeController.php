@@ -48,4 +48,7 @@ class HomeController extends Controller
     public function verification(){
         return view('auth.verification');
     }
+    public function cardetails(){
+        return view('pages.car-details');
+    }
 }
