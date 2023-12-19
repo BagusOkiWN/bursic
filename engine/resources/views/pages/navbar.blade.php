@@ -26,8 +26,7 @@
                         <div class="row">
                             @if(empty(auth()->user()->name))
                             <div class="col-lg-12 text-center">
-                                <a href="{{ route('auth') }}" class="btn btn-primary">Login</a>
-                                <a href="{{ route('auth') }}" class="btn btn-success">Register</a>
+                                <a href="{{ route('auth') }}" class="btn btn-success">Masuk</a>
                             </div>
                             @endif
                             @if(!empty(auth()->user()->name))
