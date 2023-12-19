@@ -9,16 +9,19 @@ class MobilController extends Controller
 {
     public function cars()
     {
-        // Fetch cars from the database
-        $cars = Mobil::all(); // Corrected model name
+        $cars = Mobil::all();
 
-        // Pass the cars data to the view
         return view('pages.cars', compact('cars'));
+    }
+
+    public function cardetails($id)
+    {
+        $car = Mobil::findOrFail($id);
+        return view('pages.car-details', compact('car'));
     }
 
     public function home()
     {
-        // Fetch the latest 3 cars from the database
         $mobilList = Mobil::latest()->take(3)->get();
         return view('pages.home', compact('mobilList'));
     }
