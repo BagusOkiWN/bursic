@@ -50,7 +50,7 @@
             <div class="col-lg-4">
                 <div class="trainer-item">
                     <div class="image-thumb">
-                        <img src="uploads/{{ $mobil->gambar }}" alt="{{ $mobil->nama }}">
+                        <img src="uploads/{{ $mobil->gambar }}" alt="{{ $mobil->nama }}" style="width: 320px; height: 200px;">
                     </div>
                     <div class="down-content">
                         <span>

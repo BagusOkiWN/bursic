@@ -45,11 +45,11 @@
                 <div class="trainer-item">
                     <div class="image-thumb">
                         <!-- Use the car's image from the database -->
-                        <img src="{{ asset('uploads/' . $car->gambar) }}" alt="{{ $car->name }}">
+                        <img src="{{ asset('uploads/' . $car->gambar) }}" alt="{{ $car->name }}" style="width: 320px; height: 200px;">
                     </div>
                     <div class="down-content">
                         <span>
-                            <del><sup>$</sup>{{ $car->harga }} </del> &nbsp;
+                            <sup>Rp</sup>{{ $car->harga }} &nbsp;
                         </span>
 
                         <h4>{{ $car->nama }}</h4>
