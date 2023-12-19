@@ -31,7 +31,10 @@ Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //Route Mobil
-Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');
-Route::get('/mobil/{id}/edit', [MobilController::class, 'edit'])->name('mobil.edit');
-Route::put('/mobil/{id}', [MobilController::class, 'update'])->name('mobil.update');
-Route::delete('/mobil/{id}', [MobilController::class, 'destroy'])->name('mobil.destroy');
+Route::middleware(['login'])->group(function () {
+    Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');
+    Route::get('/mobil/{id}/edit', [MobilController::class, 'edit'])->name('mobil.edit');
+    Route::put('/mobil/{id}', [MobilController::class, 'update'])->name('mobil.update');
+    Route::delete('/mobil/{id}', [MobilController::class, 'destroy'])->name('mobil.destroy');
+});
+
