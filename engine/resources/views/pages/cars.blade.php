@@ -38,178 +38,7 @@
         <div class="container">
             <br>
             <br>
-            <div class="contact-form">
-                <form action="#" id="contact">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Used/New:</label>
-                     
-                                 <select>
-                                      <option value="">All</option>
-                                      <option value="new">New vehicle</option>
-                                      <option value="used">Used vehicle</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Vehicle Type:</label>
-                     
-                                 <select>
-                                      <option value="">--All --</option>
-                                      <option value="">--All --</option>
-                                      <option value="">--All --</option>
-                                      <option value="">--All --</option>
-                                      <option value="">--All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Make:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Model:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Price:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Mileage:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Engine size:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Power:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fuel:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Gearbox:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Doors:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Number of seats:</label>
-                     
-                                 <select>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                      <option value="">-- All --</option>
-                                 </select>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4 offset-sm-4">
-                      <div class="main-button text-center">
-                          <a href="#">Search</a>
-                      </div>
-                    </div>
-                    <br>
-                    <br>
-                </form>
-            </div>
+            
 
             <div class="row">
                 <div class="col-lg-4">
@@ -361,7 +190,7 @@
 
             <br>
                 
-            <nav>
+            <!-- <nav>
               <ul class="pagination pagination-lg justify-content-center">
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Previous">
@@ -379,7 +208,7 @@
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> -->
 
         </div>
     </section>

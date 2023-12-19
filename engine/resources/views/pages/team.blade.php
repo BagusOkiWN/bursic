@@ -39,7 +39,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/team-image-1-646x680.jpg" alt="">
+                            <img src="assets/images/alfa.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>Project Manager</span>
@@ -57,7 +57,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/team-image-2-646x680.jpg" alt="">
+                            <img src="assets/images/adam.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>UI/UX Designer</span>
@@ -75,7 +75,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/team-image-3-646x680.jpg" alt="">
+                            <img src="assets/images/okik1.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>Frontend Developer</span>
@@ -94,7 +94,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="assets/images/team-image-4-646x680.jpg" alt="">
+                            <img src="assets/images/ammar.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>Backend Developer</span>
