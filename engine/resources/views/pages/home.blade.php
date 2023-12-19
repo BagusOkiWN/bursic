@@ -54,7 +54,7 @@
                     </div>
                     <div class="down-content">
                         <span>
-                            <del><sup>$</sup>{{ $mobil->harga }} </del> &nbsp; <sup>$</sup>{{ $mobil->harga }}
+                            <sup>Rp</sup>{{ $mobil->harga }} &nbsp;
                         </span>
                         <h4>{{ $mobil->nama }}</h4>
                         <!-- Add other car details here -->
@@ -150,7 +150,7 @@
         <br>
 
         <div class="main-button text-center">
-            <a href="testimonials.html">Read More</a>
+            <a href="{{route('testimonials')}}">Read More</a>
         </div>
     </div>
 </section>
