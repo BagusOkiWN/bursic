@@ -24,18 +24,28 @@
                         </li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                         <div class="row">
-                            @if(empty(auth()->user()->name))
-                            <div class="col-lg-12 text-center">
-                                <a href="{{ route('auth') }}" class="btn btn-success">Masuk</a>
-                            </div>
-                            @endif
-                            @if(!empty(auth()->user()->name))
-                            <div class="col-lg-12 text-center">
-                                     <a href="{{ route('auth') }}" class="btn btn-success">{{auth()->user()->name}}</a>
-                                <a href="{{ route('logout') }}" class="btn btn-primary">Logout</a>
-                            </div>
-                            @endif
-                     </div>
+    @if(empty(auth()->user()->name))
+        <div class="col-lg-12 text-center">
+            <a href="{{ route('auth') }}" class="btn btn-success">Masuk</a>
+        </div>
+    @endif
+
+    @if(!empty(auth()->user()->name))
+        <div class="col-lg-12 text-center">
+        <a href="{{ route('form-mobil') }}" class="btn btn-danger">Jual Mobil</a>
+            <div class="btn-group">
+                
+                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ auth()->user()->name }}
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="{{ route('logout') }}">Log Out</a>
+                </div>
+            </div>
+        </div>
+    @endif
+</div>
+
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
