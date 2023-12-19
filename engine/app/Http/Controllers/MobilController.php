@@ -7,6 +7,15 @@ use App\Models\Mobil;
 
 class MobilController extends Controller
 {
+    public function cars()
+    {
+        // Fetch cars from the database
+        $cars = Mobil::all(); // Corrected model name
+
+        // Pass the cars data to the view
+        return view('pages.cars', compact('cars'));
+    }
+
     public function home()
     {
         // Fetch the latest 3 cars from the database

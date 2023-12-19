@@ -13,7 +13,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/blog-details', [HomeController::class, 'blogdetails'])->name('blogdetails');
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
 Route::get('/car-details', [HomeController::class, 'carsdetails'])->name('carsdetails');
-Route::get('/cars', [HomeController::class, 'cars'])->name('cars');
+Route::get('/cars', [MobilController::class, 'cars'])->name('cars');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/team', [HomeController::class, 'team'])->name('team');

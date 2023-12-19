@@ -70,7 +70,7 @@
         <br>
 
         <div class="main-button text-center">
-            <a href="   ">View Cars</a>
+            <a href="{{ route('cars') }}">View Cars</a>
         </div>
     </div>
 </section>
@@ -164,7 +164,7 @@
                     <h2>Send us a <em>message</em></h2>
                     <p>Your thoughts matter! Send us a message if you have any inquiries, suggestions, or just want to chat about classic cars.</p>
                     <div class="main-button">
-                        <a href="contact.html">Contact us</a>
+                        <a href="{{ route('contact') }}">Contact us</a>
                     </div>
                 </div>
             </div>
