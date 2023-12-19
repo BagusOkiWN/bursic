@@ -49,7 +49,7 @@
                     </div>
                     <div class="down-content">
                         <span>
-                            <del><sup>$</sup>{{ $car->harga }} </del> &nbsp; <sup>$</sup>{{ $car->harga }}
+                            <del><sup>$</sup>{{ $car->harga }} </del> &nbsp;
                         </span>
 
                         <h4>{{ $car->nama }}</h4>
