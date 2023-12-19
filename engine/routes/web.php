@@ -22,7 +22,6 @@ Route::get('/terms', [HomeController::class, 'terms'])->name('terms');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/auth', [HomeController::class, 'auth'])->name('auth');
 Route::get('/verify', [HomeController::class, 'verification'])->name('verify');
-Route::get('/form-mobil', [HomeController::class, 'formmobil'])->name('form-mobil');
 Route::get('/car-details/{id}', [MobilController::class, 'cardetails'])->name('cardetails');
 
 //Auth Post
@@ -31,7 +30,8 @@ Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //Route Mobil
-Route::middleware(['login'])->group(function () {
+Route::middleware(['auth'])->group(function () {
+    Route::get('/form-mobil', [HomeController::class, 'formmobil'])->name('form-mobil');
     Route::post('/form-mobil', [MobilController::class, 'store'])->name('mobil.store');
     Route::get('/mobil/{id}/edit', [MobilController::class, 'edit'])->name('mobil.edit');
     Route::put('/mobil/{id}', [MobilController::class, 'update'])->name('mobil.update');
