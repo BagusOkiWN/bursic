@@ -7,9 +7,13 @@ use App\Models\Mobil;
 
 class MobilController extends Controller
 {
-    public function cars()
+    public function cars(Request $request)
     {
-        $cars = Mobil::all();
+        $search = $request->input('search');
+
+        $cars = Mobil::when($search, function ($query) use ($search) {
+            return $query->where('nama', 'like', '%' . $search . '%');
+        })->get();
 
         return view('pages.cars', compact('cars'));
     }
